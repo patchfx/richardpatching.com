@@ -53,6 +53,7 @@ menu_items = [
     {name = "tags", url = "$BASE_URL/tags"},
     {name = "blog", url = "$BASE_URL/blog"},
     {name = "about me", url = "$BASE_URL/about"},
+    {name = "projects", url = "$BASE_URL/projects"},
 
     # set newtab to true to make the link open in new tab
     {name = "github", url = "https://github.com/patchfx", newtab = true},
