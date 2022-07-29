@@ -30,7 +30,7 @@ the JSON file back and load it into our game data.
 
 Fire up Godot and create a new project.
 
-<img class="img-responsive" src="/godot/save_and_load/new_project_godot.png"
+<img class="img-responsive" src="/images/godot/save_and_load/new_project_godot.png"
 alt="New Godot Project" />
 
 The first thing is to create a 'Root Node', for this we will select
