@@ -1,7 +1,7 @@
 # Be sure to change these!
 base_url = "https://richardpatching.com"
 title = "Richard Patching"
-
+description = "I'm Richard. Welcome to my personal site. I write games and tools in Rust and sometimes blog about it."
 # Sass compilation is required
 compile_sass = true
 

@@ -8,6 +8,11 @@
 
 <head>
     <title>{%- block title %}{{ config.title }}{% endblock title -%}</title>
+    <meta name="description" content="Richard Patching">
+    <meta property="og:title" content="Richard Patching">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://richardpatching.com/">
+    <meta property="og:site_name" content="Richard Patching">
     {{ head_macros::head(config=config) }}
 
     {%- if config.generate_rss %}
@@ -56,6 +61,8 @@
     <div class="content">
         {% block content %}
         <div class="posts">
+            Hi! I'm Richard. Welcome to my personal site. I write games and tools in Rust 🦀 and also record and produce the <a href="https://rustgamedev.com">Rust Game Dev podcast</a>.
+
             {%- if paginator %}
                 {%- set show_pages = paginator.pages -%}
             {% else %}
